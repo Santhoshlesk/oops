@@ -1,0 +1,26 @@
+*{margin:0;}
+h1{
+	text-align:center;
+	background:orange;
+	font-size:30px;
+}
+h2{
+	width:60%;
+	margin:0px auto;
+	font-size:25px;
+}
+p{
+	width:40%;
+	margin:0px auto;
+	font-size:20px;
+}
+img{width:100%;}
+@media (max-width:991px){
+	h2{
+		width:80%;
+	}
+	p{
+		width:100%;
+	}
+	img{width:100%;}
+}
